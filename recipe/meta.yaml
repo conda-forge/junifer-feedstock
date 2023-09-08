@@ -34,8 +34,7 @@ requirements:
     - sqlalchemy >=1.4.27,<=1.5.0
     - ruamel.yaml >=0.17,<0.18
     - importlib-metadata
-    - h5py >=3.8.0,<3.9  #
-# Extra: onthefly
+    - h5py >=3.8.0,<3.9
     - bctpy >=0.6.0,<0.7.0
 
 test:
