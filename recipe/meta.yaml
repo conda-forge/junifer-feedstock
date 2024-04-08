@@ -39,7 +39,7 @@ requirements:
     - templateflow >=23.0.0
     - importlib-metadata
     - looseversion ==1.3.0
-    - bctpy ==0.6.0
+    - bctpy >=0.6.0,<0.7.0
     - neurokit2 >=0.1.7
 
 test:
