@@ -1,5 +1,5 @@
 {% set name = "junifer" %}
-{% set version = "0.0.5" %}
+{% set version = "0.0.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,14 +7,14 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/junifer-{{ version }}.tar.gz
-  sha256: 52d446d244052a43d1ce08abbfc0b664179fa7f845f03fdd7fc60f82d12d0199
+  sha256: 3577c13c2d678922b3658b6c7bde17ea6aa274e99e8e1840e5fc7ca9a15e4bd7
 
 build:
   noarch: python
   entry_points:
     - junifer = junifer.api.cli:cli
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 0
 
 requirements:
   host:
