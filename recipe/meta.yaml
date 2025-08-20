@@ -12,7 +12,7 @@ source:
 build:
   noarch: python
   entry_points:
-    - junifer = junifer.api.cli:cli
+    - junifer = junifer.cli.cli:cli
   script: {{ PYTHON }} -m pip install . -vv
   number: 0
 
