@@ -1,5 +1,5 @@
 {% set name = "junifer" %}
-{% set version = "0.0.6" %}
+{% set version = "0.0.7" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/junifer-{{ version }}.tar.gz
-  sha256: 3577c13c2d678922b3658b6c7bde17ea6aa274e99e8e1840e5fc7ca9a15e4bd7
+  sha256: a609d62e17a2efda0f713794bd07138286b7de58851e77456b48b062750e0d27
 
 build:
   noarch: python
